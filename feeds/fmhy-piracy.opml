@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FMHY + subs de pirataria.
+  Antes de abrir qualquer link: uBlock Origin, navegador/perfil separado,
+  nunca instalar .apk/.exe de site de streaming, conferir a lista "Unsafe" do FMHY.
+  Importe em Feedly, Inoreader, NetNewsWire etc. (Importar OPML).
+-->
+<opml version="2.0">
+  <head>
+    <title>FMHY e Pirataria</title>
+    <dateCreated>Fri, 30 Oct 2026 00:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="FMHY" title="FMHY">
+      <outline type="rss" text="FMHY – Blog (resumo mensal)" title="FMHY – Blog (resumo mensal)" xmlUrl="https://fmhy.net/feed.rss" htmlUrl="https://fmhy.net/"/>
+      <outline type="rss" text="FMHY – Commits (o que entrou no wiki)" title="FMHY – Commits (o que entrou no wiki)" xmlUrl="https://github.com/fmhy/edit/commits/main.atom" htmlUrl="https://github.com/fmhy/edit/commits/main"/>
+      <outline type="rss" text="r/FREEMEDIAHECKYEAH" title="r/FREEMEDIAHECKYEAH" xmlUrl="https://www.reddit.com/r/FREEMEDIAHECKYEAH/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/FREEMEDIAHECKYEAH/"/>
+    </outline>
+    <outline text="Pirataria" title="Pirataria">
+      <outline type="rss" text="r/Piracy" title="r/Piracy" xmlUrl="https://www.reddit.com/r/Piracy/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/Piracy/"/>
+      <outline type="rss" text="r/PiratedGames" title="r/PiratedGames" xmlUrl="https://www.reddit.com/r/PiratedGames/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/PiratedGames/"/>
+    </outline>
+  </body>
+</opml>
