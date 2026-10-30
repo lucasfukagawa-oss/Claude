@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Junção de reddit-ia.opml, reddit-gratis-promocoes.opml e fmhy-piracy.opml.
+     Pastas em um só nível: Feedly e outros leitores ignoram pastas aninhadas. -->
+<opml version="2.0">
+  <head>
+    <title>Radar – IA, Grátis/Promoções, FMHY/Pirataria</title>
+    <dateCreated>Fri, 30 Oct 2026 00:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="IA – Assistentes e LLMs" title="IA – Assistentes e LLMs">
+      <outline type="rss" text="r/ChatGPT" title="r/ChatGPT" xmlUrl="https://www.reddit.com/r/ChatGPT/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/ChatGPT/" />
+      <outline type="rss" text="r/ChatGPTPro" title="r/ChatGPTPro" xmlUrl="https://www.reddit.com/r/ChatGPTPro/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/ChatGPTPro/" />
+      <outline type="rss" text="r/OpenAI" title="r/OpenAI" xmlUrl="https://www.reddit.com/r/OpenAI/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/OpenAI/" />
+      <outline type="rss" text="r/ClaudeAI" title="r/ClaudeAI" xmlUrl="https://www.reddit.com/r/ClaudeAI/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/ClaudeAI/" />
+      <outline type="rss" text="r/GeminiAI" title="r/GeminiAI" xmlUrl="https://www.reddit.com/r/GeminiAI/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/GeminiAI/" />
+      <outline type="rss" text="r/LocalLLaMA" title="r/LocalLLaMA" xmlUrl="https://www.reddit.com/r/LocalLLaMA/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/LocalLLaMA/" />
+      <outline type="rss" text="r/PromptEngineering" title="r/PromptEngineering" xmlUrl="https://www.reddit.com/r/PromptEngineering/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/PromptEngineering/" />
+    </outline>
+    <outline text="IA – Imagem e Vídeo" title="IA – Imagem e Vídeo">
+      <outline type="rss" text="r/StableDiffusion" title="r/StableDiffusion" xmlUrl="https://www.reddit.com/r/StableDiffusion/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/StableDiffusion/" />
+      <outline type="rss" text="r/comfyui" title="r/comfyui" xmlUrl="https://www.reddit.com/r/comfyui/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/comfyui/" />
+      <outline type="rss" text="r/midjourney" title="r/midjourney" xmlUrl="https://www.reddit.com/r/midjourney/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/midjourney/" />
+      <outline type="rss" text="r/aivideo" title="r/aivideo" xmlUrl="https://www.reddit.com/r/aivideo/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/aivideo/" />
+    </outline>
+    <outline text="IA – Notícias e tendências" title="IA – Notícias e tendências">
+      <outline type="rss" text="r/singularity" title="r/singularity" xmlUrl="https://www.reddit.com/r/singularity/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/singularity/" />
+      <outline type="rss" text="r/artificial" title="r/artificial" xmlUrl="https://www.reddit.com/r/artificial/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/artificial/" />
+      <outline type="rss" text="r/ArtificialInteligence" title="r/ArtificialInteligence" xmlUrl="https://www.reddit.com/r/ArtificialInteligence/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/ArtificialInteligence/" />
+    </outline>
+    <outline text="IA – Ferramentas e automação" title="IA – Ferramentas e automação">
+      <outline type="rss" text="r/SideProject" title="r/SideProject" xmlUrl="https://www.reddit.com/r/SideProject/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/SideProject/" />
+      <outline type="rss" text="r/n8n" title="r/n8n" xmlUrl="https://www.reddit.com/r/n8n/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/n8n/" />
+      <outline type="rss" text="r/automation" title="r/automation" xmlUrl="https://www.reddit.com/r/automation/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/automation/" />
+    </outline>
+    <outline text="Promoções – Apps" title="Promoções – Apps">
+      <outline type="rss" text="r/AppHookup" title="r/AppHookup" xmlUrl="https://www.reddit.com/r/AppHookup/new/.rss" htmlUrl="https://www.reddit.com/r/AppHookup/" />
+      <outline type="rss" text="r/googleplaydeals" title="r/googleplaydeals" xmlUrl="https://www.reddit.com/r/googleplaydeals/new/.rss" htmlUrl="https://www.reddit.com/r/googleplaydeals/" />
+    </outline>
+    <outline text="Promoções – Jogos" title="Promoções – Jogos">
+      <outline type="rss" text="r/FreeGameFindings" title="r/FreeGameFindings" xmlUrl="https://www.reddit.com/r/FreeGameFindings/new/.rss" htmlUrl="https://www.reddit.com/r/FreeGameFindings/" />
+      <outline type="rss" text="r/GameDeals" title="r/GameDeals" xmlUrl="https://www.reddit.com/r/GameDeals/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/GameDeals/" />
+    </outline>
+    <outline text="Promoções – Cursos" title="Promoções – Cursos">
+      <outline type="rss" text="r/udemyfreebies" title="r/udemyfreebies" xmlUrl="https://www.reddit.com/r/udemyfreebies/new/.rss" htmlUrl="https://www.reddit.com/r/udemyfreebies/" />
+    </outline>
+    <outline text="Ferramentas grátis – Descoberta" title="Ferramentas grátis – Descoberta">
+      <outline type="rss" text="r/InternetIsBeautiful" title="r/InternetIsBeautiful" xmlUrl="https://www.reddit.com/r/InternetIsBeautiful/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/InternetIsBeautiful/" />
+      <outline type="rss" text="r/opensource" title="r/opensource" xmlUrl="https://www.reddit.com/r/opensource/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/opensource/" />
+      <outline type="rss" text="r/selfhosted" title="r/selfhosted" xmlUrl="https://www.reddit.com/r/selfhosted/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/selfhosted/" />
+      <outline type="rss" text="r/software" title="r/software" xmlUrl="https://www.reddit.com/r/software/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/software/" />
+      <outline type="rss" text="r/androidapps" title="r/androidapps" xmlUrl="https://www.reddit.com/r/androidapps/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/androidapps/" />
+      <outline type="rss" text="r/macapps" title="r/macapps" xmlUrl="https://www.reddit.com/r/macapps/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/macapps/" />
+    </outline>
+    <outline text="FMHY" title="FMHY">
+      <outline type="rss" text="FMHY – Blog (resumo mensal)" title="FMHY – Blog (resumo mensal)" xmlUrl="https://fmhy.net/feed.rss" htmlUrl="https://fmhy.net/" />
+      <outline type="rss" text="FMHY – Commits (o que entrou no wiki)" title="FMHY – Commits (o que entrou no wiki)" xmlUrl="https://github.com/fmhy/edit/commits/main.atom" htmlUrl="https://github.com/fmhy/edit/commits/main" />
+      <outline type="rss" text="r/FREEMEDIAHECKYEAH" title="r/FREEMEDIAHECKYEAH" xmlUrl="https://www.reddit.com/r/FREEMEDIAHECKYEAH/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/FREEMEDIAHECKYEAH/" />
+    </outline>
+    <outline text="Pirataria" title="Pirataria">
+      <outline type="rss" text="r/Piracy" title="r/Piracy" xmlUrl="https://www.reddit.com/r/Piracy/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/Piracy/" />
+      <outline type="rss" text="r/PiratedGames" title="r/PiratedGames" xmlUrl="https://www.reddit.com/r/PiratedGames/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/PiratedGames/" />
+    </outline>
+  </body>
+</opml>
