@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Feeds de Reddit sobre ferramentas grátis e promoções.
+  Promoções expiram rápido: essas usam /new (tudo, em ordem de chegada).
+  Descoberta de sites/ferramentas usa /top?t=week (o que a comunidade validou).
+  Importe em Feedly, Inoreader, NetNewsWire etc. (Importar OPML).
+-->
+<opml version="2.0">
+  <head>
+    <title>Reddit – Grátis e promoções</title>
+    <dateCreated>Fri, 30 Oct 2026 00:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="Promoções – Apps" title="Promoções – Apps">
+      <outline type="rss" text="r/AppHookup" title="r/AppHookup" xmlUrl="https://www.reddit.com/r/AppHookup/new/.rss" htmlUrl="https://www.reddit.com/r/AppHookup/"/>
+      <outline type="rss" text="r/googleplaydeals" title="r/googleplaydeals" xmlUrl="https://www.reddit.com/r/googleplaydeals/new/.rss" htmlUrl="https://www.reddit.com/r/googleplaydeals/"/>
+    </outline>
+    <outline text="Promoções – Jogos" title="Promoções – Jogos">
+      <outline type="rss" text="r/FreeGameFindings" title="r/FreeGameFindings" xmlUrl="https://www.reddit.com/r/FreeGameFindings/new/.rss" htmlUrl="https://www.reddit.com/r/FreeGameFindings/"/>
+      <outline type="rss" text="r/GameDeals" title="r/GameDeals" xmlUrl="https://www.reddit.com/r/GameDeals/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/GameDeals/"/>
+    </outline>
+    <outline text="Promoções – Cursos" title="Promoções – Cursos">
+      <outline type="rss" text="r/udemyfreebies" title="r/udemyfreebies" xmlUrl="https://www.reddit.com/r/udemyfreebies/new/.rss" htmlUrl="https://www.reddit.com/r/udemyfreebies/"/>
+    </outline>
+    <outline text="Ferramentas grátis – Descoberta" title="Ferramentas grátis – Descoberta">
+      <outline type="rss" text="r/InternetIsBeautiful" title="r/InternetIsBeautiful" xmlUrl="https://www.reddit.com/r/InternetIsBeautiful/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/InternetIsBeautiful/"/>
+      <outline type="rss" text="r/opensource" title="r/opensource" xmlUrl="https://www.reddit.com/r/opensource/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/opensource/"/>
+      <outline type="rss" text="r/selfhosted" title="r/selfhosted" xmlUrl="https://www.reddit.com/r/selfhosted/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/selfhosted/"/>
+      <outline type="rss" text="r/software" title="r/software" xmlUrl="https://www.reddit.com/r/software/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/software/"/>
+      <outline type="rss" text="r/androidapps" title="r/androidapps" xmlUrl="https://www.reddit.com/r/androidapps/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/androidapps/"/>
+      <outline type="rss" text="r/macapps" title="r/macapps" xmlUrl="https://www.reddit.com/r/macapps/top/.rss?t=week" htmlUrl="https://www.reddit.com/r/macapps/"/>
+    </outline>
+  </body>
+</opml>
