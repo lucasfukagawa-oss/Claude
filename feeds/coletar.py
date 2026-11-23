@@ -20,7 +20,7 @@ from pathlib import Path
 
 OPML = Path(__file__).with_name("todos.opml")
 UA = "Mozilla/5.0 (radar-semanal; leitor RSS pessoal)"
-INTERVALO = 10  # segundos entre feeds
+INTERVALO = 10  # segundos entre feeds do Reddit
 ESPERAS_429 = [30, 60, 120]
 MAX_ITENS = 15
 JANELA = timedelta(days=8)
@@ -96,7 +96,8 @@ def main():
                 recentes = [i for i in itens if (d := data(i["data"])) is None or d >= corte]
                 resultado["pastas"].setdefault(nome_pasta, {})[nome] = recentes[:MAX_ITENS]
                 print(f"ok    {nome}: {len(recentes)} itens", file=sys.stderr)
-            time.sleep(INTERVALO)
+            if "reddit.com" in url:  # só o Reddit limita acessos
+                time.sleep(INTERVALO)
     saida.write_text(json.dumps(resultado, ensure_ascii=False, indent=1))
     print(f"{saida}: {len(resultado['falhas'])} falhas", file=sys.stderr)
 

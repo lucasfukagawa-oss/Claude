@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Fontes fora do Reddit, para o radar não depender de uma única plataforma.
+  Todas testadas em 23/11/2026 (HTTP 200 com itens).
+  Importe em Feedly, Inoreader, NetNewsWire etc. (Importar OPML).
+-->
+<opml version="2.0">
+  <head>
+    <title>Fontes extras (fora do Reddit)</title>
+    <dateCreated>Mon, 23 Nov 2026 00:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="Web – Notícias de IA" title="Web – Notícias de IA">
+      <outline type="rss" text="TLDR AI" title="TLDR AI" xmlUrl="https://tldr.tech/api/rss/ai" htmlUrl="https://tldr.tech/ai"/>
+      <outline type="rss" text="The Verge – IA" title="The Verge – IA" xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://www.theverge.com/ai-artificial-intelligence"/>
+      <outline type="rss" text="Ars Technica – IA" title="Ars Technica – IA" xmlUrl="https://arstechnica.com/ai/feed/" htmlUrl="https://arstechnica.com/ai/"/>
+      <outline type="rss" text="TechCrunch – IA" title="TechCrunch – IA" xmlUrl="https://techcrunch.com/category/artificial-intelligence/feed/" htmlUrl="https://techcrunch.com/category/artificial-intelligence/"/>
+    </outline>
+    <outline text="Web – IA na prática" title="Web – IA na prática">
+      <outline type="rss" text="Simon Willison" title="Simon Willison" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
+      <outline type="rss" text="Hugging Face – Blog" title="Hugging Face – Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+    </outline>
+    <outline text="Web – Hacker News e lançamentos" title="Web – Hacker News e lançamentos">
+      <outline type="rss" text="Hacker News – Best" title="Hacker News – Best" xmlUrl="https://hnrss.org/best" htmlUrl="https://news.ycombinator.com/best"/>
+      <outline type="rss" text="Show HN (100+ pontos)" title="Show HN (100+ pontos)" xmlUrl="https://hnrss.org/show?points=100" htmlUrl="https://news.ycombinator.com/show"/>
+      <outline type="rss" text="Product Hunt" title="Product Hunt" xmlUrl="https://www.producthunt.com/feed" htmlUrl="https://www.producthunt.com/"/>
+    </outline>
+    <outline text="Web – Grátis e promoções" title="Web – Grátis e promoções">
+      <outline type="rss" text="GamerPower – Brindes" title="GamerPower – Brindes" xmlUrl="https://www.gamerpower.com/rss/giveaways" htmlUrl="https://www.gamerpower.com/"/>
+      <outline type="rss" text="9to5Toys" title="9to5Toys" xmlUrl="https://9to5toys.com/feed/" htmlUrl="https://9to5toys.com/"/>
+    </outline>
+    <outline text="Web – Pirataria (notícias)" title="Web – Pirataria (notícias)">
+      <outline type="rss" text="TorrentFreak" title="TorrentFreak" xmlUrl="https://torrentfreak.com/feed/" htmlUrl="https://torrentfreak.com/"/>
+    </outline>
+    <outline text="Web – Brasil (o que já saiu em português)" title="Web – Brasil (o que já saiu em português)">
+      <outline type="rss" text="Tecnoblog" title="Tecnoblog" xmlUrl="https://tecnoblog.net/feed/" htmlUrl="https://tecnoblog.net/"/>
+      <outline type="rss" text="Canaltech" title="Canaltech" xmlUrl="https://canaltech.com.br/rss/" htmlUrl="https://canaltech.com.br/"/>
+    </outline>
+  </body>
+</opml>
